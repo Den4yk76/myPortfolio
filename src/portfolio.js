@@ -181,7 +181,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Front End Developer",
+      role: "Full Stack Software Developer",
       company: "Benchmark Automotive Group Inc",
       companylogo: require("./assets/images/benchmarkLogo2.png"),
       date: "November 2022 – Present",
