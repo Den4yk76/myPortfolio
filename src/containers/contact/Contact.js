@@ -8,6 +8,7 @@ import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
 import contactMe from "../../assets/images/contactMailDark.svg";
+import phoneIcon from "../../assets/images/phoneIcon.png";
 
 export default function Contact() {
   const {isDark} = useContext(StyleContext);
@@ -16,7 +17,14 @@ export default function Contact() {
       <div className="main contact-margin-top" id="contact">
         <div className="contact-div-main">
           <div className="contact-header">
-            <h1 className="heading contact-title">{contactInfo.title}</h1>
+            <h1 className="heading contact-title">
+              {contactInfo.title}
+              <img
+                className="phone-icon"
+                src={phoneIcon}
+                alt="icon of the phone"
+              />
+            </h1>
             <p
               className={
                 isDark

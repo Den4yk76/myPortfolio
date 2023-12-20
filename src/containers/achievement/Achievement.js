@@ -4,6 +4,8 @@ import AchievementCard from "../../components/achievementCard/AchievementCard";
 import {achievementSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import goldMedal from "../../assets/images/goldMedal.png";
+
 export default function Achievement() {
   const {isDark} = useContext(StyleContext);
   if (!achievementSection.display) {
@@ -22,6 +24,11 @@ export default function Achievement() {
               }
             >
               {achievementSection.title}
+              <img
+                className="goldMedal"
+                src={goldMedal}
+                alt="gold medal icon"
+              />
             </h1>
             <p
               className={

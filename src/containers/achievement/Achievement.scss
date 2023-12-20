@@ -1,11 +1,19 @@
 @import "../../_globalColor";
 
 .achievement-heading {
+  display: flex;
+  align-items: center;
   font-size: 56px;
   font-weight: 400;
   line-height: normal;
   margin: 0px;
 }
+
+.goldMedal {
+  margin-left: 10px;
+  width: 70px;
+}
+
 .achievement-subtitle {
   text-transform: uppercase;
   margin: 0px;

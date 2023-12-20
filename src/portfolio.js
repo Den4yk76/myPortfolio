@@ -3,13 +3,14 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import lightLoader from "./assets/lottie/lightLoader"; // Rename to your file name for custom animation
+import darkLoader from "./assets/lottie/darkLoader"; // Rename to your file name for custom animation
 
 // Splash Screen
 
 const splashScreen = {
   enabled: true, // set false to disable splash screen
-  animation: splashAnimation,
+  animation: {dark: darkLoader, light: lightLoader},
   duration: 1000 // Set animation duration as per your animation
 };
 
@@ -263,9 +264,9 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications and Some Cool Stuff that I have done !",
+  title: emoji("Achievements And Certifications"),
+  // subtitle:
+  //   "Achievements, Certifications and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
@@ -380,7 +381,7 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+1(647)-988-8103",
