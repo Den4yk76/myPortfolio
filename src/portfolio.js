@@ -36,7 +36,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/den4yk76",
   linkedin: "https://www.linkedin.com/in/den4yk76/",
-  gmail: "denysnazarenko23@gmail.com",
+  gmail: "denysnazarenkoca@gmail.com",
   facebook: "https://www.facebook.com/den4yk76",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
