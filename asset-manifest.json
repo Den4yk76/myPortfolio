@@ -1,33 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.882c94a4.css",
-    "main.js": "/static/js/main.bae9ca6e.js",
-    "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
+    "main.css": "/static/css/main.a7c84b7f.css",
+    "main.js": "/static/js/main.a729dbad.js",
+    "static/css/64.e91b2654.chunk.css": "/static/css/64.e91b2654.chunk.css",
     "static/js/64.6f2aca4d.chunk.js": "/static/js/64.6f2aca4d.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
-    "static/js/769.fe95c648.chunk.js": "/static/js/769.fe95c648.chunk.js",
+    "static/js/769.65d2d2fd.chunk.js": "/static/js/769.65d2d2fd.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/benchmarkLogo2.png": "/static/media/benchmarkLogo2.64f44530a3896225492e.png",
     "static/media/ukrmetrLogo.jpeg": "/static/media/ukrmetrLogo.871c9bcad67018608c37.jpeg",
     "static/media/jhuLogo.jpeg": "/static/media/jhuLogo.2971f9a335e99538abb4.jpeg",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/manOnTable.svg": "/static/media/manOnTable.988c2f4a895f70d93f4d7534c8cbd0c6.svg",
     "static/media/kpi.jpeg": "/static/media/kpi.180736e2de42e0126748.jpeg",
-    "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.82387291fd02f410f18264a3d936107d.svg",
     "static/media/goit.jpeg": "/static/media/goit.33a9d0059d98e0cdd913.jpeg",
-    "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
-    "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.8df0f6187c7c8286f540c4dd809122e4.svg",
     "static/media/googleLogo.jpeg": "/static/media/googleLogo.29c21b0484c6e090ad37.jpeg",
     "static/media/luxoftLogo.jpeg": "/static/media/luxoftLogo.ea6a41155b4521bd680a.jpeg",
     "index.html": "/index.html",
-    "main.882c94a4.css.map": "/static/css/main.882c94a4.css.map",
-    "main.bae9ca6e.js.map": "/static/js/main.bae9ca6e.js.map",
-    "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
+    "main.a7c84b7f.css.map": "/static/css/main.a7c84b7f.css.map",
+    "main.a729dbad.js.map": "/static/js/main.a729dbad.js.map",
+    "64.e91b2654.chunk.css.map": "/static/css/64.e91b2654.chunk.css.map",
     "64.6f2aca4d.chunk.js.map": "/static/js/64.6f2aca4d.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
-    "769.fe95c648.chunk.js.map": "/static/js/769.fe95c648.chunk.js.map"
+    "769.65d2d2fd.chunk.js.map": "/static/js/769.65d2d2fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.882c94a4.css",
-    "static/js/main.bae9ca6e.js"
+    "static/css/main.a7c84b7f.css",
+    "static/js/main.a729dbad.js"
   ]
 }
