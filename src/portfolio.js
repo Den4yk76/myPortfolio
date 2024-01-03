@@ -385,7 +385,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+1(647)-988-8103",
-  email_address: "denysnazarenko23@gmail.com"
+  email_address: "denysnazarenkoca@gmail.com"
 };
 
 // Twitter Section
