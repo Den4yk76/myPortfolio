@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a7c84b7f.css",
-    "main.js": "/static/js/main.11b4678e.js",
+    "main.js": "/static/js/main.84dd1096.js",
     "static/css/64.e91b2654.chunk.css": "/static/css/64.e91b2654.chunk.css",
     "static/js/64.6f2aca4d.chunk.js": "/static/js/64.6f2aca4d.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -20,7 +20,7 @@
     "static/media/luxoftLogo.jpeg": "/static/media/luxoftLogo.ea6a41155b4521bd680a.jpeg",
     "index.html": "/index.html",
     "main.a7c84b7f.css.map": "/static/css/main.a7c84b7f.css.map",
-    "main.11b4678e.js.map": "/static/js/main.11b4678e.js.map",
+    "main.84dd1096.js.map": "/static/js/main.84dd1096.js.map",
     "64.e91b2654.chunk.css.map": "/static/css/64.e91b2654.chunk.css.map",
     "64.6f2aca4d.chunk.js.map": "/static/js/64.6f2aca4d.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -28,6 +28,6 @@
   },
   "entrypoints": [
     "static/css/main.a7c84b7f.css",
-    "static/js/main.11b4678e.js"
+    "static/js/main.84dd1096.js"
   ]
 }
