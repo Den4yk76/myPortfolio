@@ -54,7 +54,7 @@ const skillsSection = {
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications."
     ),
     emoji(
-      "⚡ Crafting high-performance front-end experiences with expertise in JavaScript, TypeScript, React, Redux, and Firebase/MongoDB to optimize user engagement."
+      "⚡ Crafting high-performance front-end experiences with expertise in JavaScript, TypeScript, React, Redux, Firebase/MongoDB and various other technologies, to optimize user engagement."
     )
   ],
 
@@ -182,10 +182,22 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Front End React Developer",
+      company: "Independent Contractor",
+      companylogo: require("./assets/images/freelance.png"),
+      date: "Sep 2022 – Present",
+      desc: "",
+      descBullets: [
+        "Transitioned a complex web application from Vue.js to React, yielding a ~30% improvement in page load speed and enhancing user engagement by ~10% [TypeScript, Tailwind CSS, Bootstrap].",
+        "Accomplished a 23% improvement in cross-browser compatibility, measured by reduced bug reports related to browser-specific issues, by utilizing polyfills and CSS best practices.",
+        "Introduced Firebase as a backend solution, resulting in a ~40% decrease in database query response times, gauged through database performance metrics, by enhancing data retrieval and storage operations."
+      ]
+    },
+    {
       role: "Full Stack Software Developer",
       company: "Benchmark Automotive Group Inc",
       companylogo: require("./assets/images/benchmarkLogo2.png"),
-      date: "November 2022 – Present",
+      date: "Nov 2022 – Feb 2024",
       desc: "",
       descBullets: [
         "Resolved a critical bug in a website's online financing application [Javascript, Wordpress], preventing a loss of CAD$25,000/month in sales.",
@@ -208,7 +220,7 @@ const workExperiences = {
       role: "Software Developer",
       company: "Luxoft",
       companylogo: require("./assets/images/luxoftLogo.jpeg"),
-      date: "April 2020 – October 2020",
+      date: "Apr 2020 – Oct 2020",
       desc: "",
       descBullets: [
         "Boosted the application's performance by 12%, assessed through Google Lighthouse, through the implementation of caching and lazy loading.",
