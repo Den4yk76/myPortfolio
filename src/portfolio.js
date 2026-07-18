@@ -26,8 +26,7 @@ const greeting = {
   subTitle: emoji(
     "Full Stack Software Developer with 3+ years of experience in development of complex web services. Successfully applied solid knowledge of programming fundamentals and data structures to real-world projects on daily basis to achieve the highest quality of delivered product."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1FpgbaEnU8qb440gZL-948qQFUDOj341N/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -182,50 +181,36 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Front End React Developer",
-      company: "Independent Contractor",
-      companylogo: require("./assets/images/freelance.png"),
-      date: "Sep 2022 – Present",
+      role: "Senior Full Stack Developer",
+      company: "Smart Moose Canada Inc.",
+      companylogo: require("./assets/images/smartmooseLogo.png"),
+      date: "Jun 2024 – Present",
       desc: "",
       descBullets: [
-        "Transitioned a complex web application from Vue.js to React, yielding a ~30% improvement in page load speed and enhancing user engagement by ~10% [TypeScript, Tailwind CSS, Bootstrap].",
-        "Accomplished a 23% improvement in cross-browser compatibility, measured by reduced bug reports related to browser-specific issues, by utilizing polyfills and CSS best practices.",
-        "Introduced Firebase as a backend solution, resulting in a ~40% decrease in database query response times, gauged through database performance metrics, by enhancing data retrieval and storage operations."
-      ]
-    },
-    {
-      role: "Full Stack Software Developer",
-      company: "Benchmark Automotive Group Inc",
-      companylogo: require("./assets/images/benchmarkLogo2.png"),
-      date: "Nov 2022 – Feb 2024",
-      desc: "",
-      descBullets: [
-        "Resolved a critical bug in a website's online financing application [Javascript, Wordpress], preventing a loss of CAD$25,000/month in sales.",
-        "Collaborated with the marketing team to develop and execute a successful social media campaign, boosting brand visibility and engagement.",
-        "Actively crafting a website with React, employing a component-based structure, and integrating cutting-edge libraries such as Redux for state management."
+        "Own the technical direction and architecture of SubSweeper (frontend, backend, AI pipeline, and platform concerns).",
+        "Built the initial TypeScript full-stack foundation for SubSweeper: React frontend, Node/Express backend, and MongoDB/Redis.",
+        "Implemented Google OAuth 2.0 and Gmail API integration to ingest and process inbox data safely.",
+        "Developed core UI flows (onboarding, dashboards, subscription views) using React and Redux Toolkit.",
+        "Implemented secure auth/token handling, API structure, and a production-ready middleware/security baseline.",
+        "Designed and shipped a multi-stage email classification workflow using Azure OpenAI, optimized for accuracy and reduced repeated work through caching/pattern reuse.",
+        "Built real-time scan progress updates using WebSockets/Socket.IO, with background processing via BullMQ and Redis.",
+        "Improved reliability and throughput with token-aware batching, rate limiting, retries/backoff, and safe incremental processing.",
+        "Delivered product features end-to-end: permissions handling, onboarding flows, subscription management, and operational tooling.",
+        "Set up delivery workflows and deployment practices to support frequent releases.",
+        "Tech: TypeScript, React, Redux Toolkit, Node.js/Express, MongoDB, Redis, Azure OpenAI, BullMQ, Socket.IO, Google OAuth, Gmail API, CI/CD, Microsoft Azure Cloud Services."
       ]
     },
     {
       role: "Software Developer",
       company: "SE Ukrmetrteststandart",
       companylogo: require("./assets/images/ukrmetrLogo.jpeg"),
-      date: "Nov 2020 – Sept 2022",
+      date: "Nov 2020 – Sep 2022",
       desc: "",
       descBullets: [
-        "Constructed a WordPress-based website from the ground up, while addressing front-end bugs [Javascript, HTML, CSS] across the company's websites. Contributed to a ~10% uptick in user engagement and a 15% surge in site traffic.",
-        "Created scripts [Bash] to automate data backup for company servers and Windows-based computers, achieving an 80% automation rate, and effectively mitigating the risk of data loss."
-      ]
-    },
-    {
-      role: "Software Developer",
-      company: "Luxoft",
-      companylogo: require("./assets/images/luxoftLogo.jpeg"),
-      date: "Apr 2020 – Oct 2020",
-      desc: "",
-      descBullets: [
-        "Boosted the application's performance by 12%, assessed through Google Lighthouse, through the implementation of caching and lazy loading.",
-        "Streamlined application navigation by configuring lazy-loaded routes, implementing route guards, and ensuring clean, SEO-friendly URLs.",
-        "Attained a 16% reduction in bug reports in Jira through the introduction of unit testing."
+        "Built WordPress-based websites from scratch, contributing to ~10% higher user engagement and a ~15% increase in site traffic.",
+        "Automated data backup processes for servers and Windows-based computers, achieving ~80% automation and reducing operational risk.",
+        "Improved production stability by fixing critical bugs and supporting ~99% uptime for a production system.",
+        "Tech: JavaScript, PHP, MySQL, WordPress, HTML/CSS, Bash."
       ]
     }
   ]
@@ -243,32 +228,8 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    {
-      // image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      // image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
-  ],
+  subtitle: "",
+  projects: [],
   display: false // Set false to hide this section, defaults to true
 };
 
@@ -340,23 +301,9 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  subtitle: "",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
+  blogs: [],
   display: false // Set false to hide this section, defaults to true
 };
 
@@ -364,18 +311,9 @@ const blogSection = {
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
+  subtitle: "",
 
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
+  talks: [],
   display: false // Set false to hide this section, defaults to true
 };
 
@@ -383,12 +321,10 @@ const talkSection = {
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
+  podcast: [],
   display: false // Set false to hide this section, defaults to true
 };
 
