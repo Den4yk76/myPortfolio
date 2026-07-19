@@ -132,7 +132,16 @@ const educationInfo = {
         "National Technical University of Ukraine 'Igor Sikorsky Kyiv Polytechnic Institute'",
       logo: require("./assets/images/kpi.jpeg"),
       subHeader: "Master of Automation and Computer-Integrated Technologies",
-      duration: "September 2019 - January 2024",
+      duration: "September 2022 - January 2024",
+      desc: "",
+      descBullets: []
+    },
+    {
+      schoolName:
+        "National Technical University of Ukraine 'Igor Sikorsky Kyiv Polytechnic Institute'",
+      logo: require("./assets/images/kpi.jpeg"),
+      subHeader: "Bachelor of Automation and Computer-Integrated Technologies",
+      duration: "September 2019 - June 2022",
       desc: "",
       descBullets: [
         "Applying theoretical knowledge to real-world scenarios, gaining hands-on experience through practical projects and industry collaborations.",
@@ -181,7 +190,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Senior Full Stack Developer",
+      role: "Full Stack Developer",
       company: "Smart Moose Canada Inc.",
       companylogo: require("./assets/images/smartmooseLogo.png"),
       date: "Jun 2024 – Present",
