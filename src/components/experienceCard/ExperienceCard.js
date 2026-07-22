@@ -30,6 +30,13 @@ export default function ExperienceCard({cardInfo, isDark}) {
       : null;
   };
 
+  // Entries with a title progression stack each role/date heading; single-role
+  // entries fall back to the flat role/date pair. Bullets stay shared.
+  const positions =
+    Array.isArray(cardInfo.positions) && cardInfo.positions.length
+      ? cardInfo.positions
+      : [{role: cardInfo.role, date: cardInfo.date}];
+
   return (
     <div className={isDark ? "experience-card-dark" : "experience-card"}>
       <div style={{background: rgb(colorArrays)}} className="experience-banner">
@@ -48,24 +55,28 @@ export default function ExperienceCard({cardInfo, isDark}) {
         />
       </div>
       <div className="experience-text-details">
-        <h5
-          className={
-            isDark
-              ? "experience-text-role dark-mode-text"
-              : "experience-text-role"
-          }
-        >
-          {cardInfo.role}
-        </h5>
-        <h5
-          className={
-            isDark
-              ? "experience-text-date dark-mode-text"
-              : "experience-text-date"
-          }
-        >
-          {cardInfo.date}
-        </h5>
+        {positions.map((position, i) => (
+          <div className="experience-position" key={i}>
+            <h5
+              className={
+                isDark
+                  ? "experience-text-role dark-mode-text"
+                  : "experience-text-role"
+              }
+            >
+              {position.role}
+            </h5>
+            <h5
+              className={
+                isDark
+                  ? "experience-text-date dark-mode-text"
+                  : "experience-text-date"
+              }
+            >
+              {position.date}
+            </h5>
+          </div>
+        ))}
         <p
           className={
             isDark

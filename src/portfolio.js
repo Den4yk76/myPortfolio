@@ -24,7 +24,7 @@ const greeting = {
   username: "Denys Nazarenko",
   title: "Hi all, I'm Denys",
   subTitle: emoji(
-    "Full Stack Software Developer with 3+ years of experience in development of complex web services. Successfully applied solid knowledge of programming fundamentals and data structures to real-world projects on daily basis to achieve the highest quality of delivered product."
+    "Senior Full Stack Software Developer with 3+ years of experience in development of complex web services. Successfully applied solid knowledge of programming fundamentals and data structures to real-world projects on daily basis to achieve the highest quality of delivered product."
   ),
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -190,10 +190,12 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Full Stack Developer",
       company: "Smart Moose Canada Inc.",
       companylogo: require("./assets/images/smartmooseLogo.png"),
-      date: "Jun 2024 – Present",
+      positions: [
+        {role: "Senior Full Stack Developer", date: "Sep 2025 – Present"},
+        {role: "Full Stack Developer", date: "Jun 2024 – Sep 2025"}
+      ],
       desc: "",
       descBullets: [
         "Own the technical direction and architecture of SubSweeper (frontend, backend, AI pipeline, and platform concerns).",
