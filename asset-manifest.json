@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7c84b7f.css",
-    "main.js": "/static/js/main.55a8687f.js",
+    "main.css": "/static/css/main.1f46b99b.css",
+    "main.js": "/static/js/main.ff19f106.js",
     "static/css/64.e91b2654.chunk.css": "/static/css/64.e91b2654.chunk.css",
     "static/js/64.6f2aca4d.chunk.js": "/static/js/64.6f2aca4d.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -18,15 +18,15 @@
     "static/media/developerActivity.svg": "/static/media/developerActivity.8df0f6187c7c8286f540c4dd809122e4.svg",
     "static/media/googleLogo.jpeg": "/static/media/googleLogo.f17b9c3a1d39db72ed1b.jpeg",
     "index.html": "/index.html",
-    "main.a7c84b7f.css.map": "/static/css/main.a7c84b7f.css.map",
-    "main.55a8687f.js.map": "/static/js/main.55a8687f.js.map",
+    "main.1f46b99b.css.map": "/static/css/main.1f46b99b.css.map",
+    "main.ff19f106.js.map": "/static/js/main.ff19f106.js.map",
     "64.e91b2654.chunk.css.map": "/static/css/64.e91b2654.chunk.css.map",
     "64.6f2aca4d.chunk.js.map": "/static/js/64.6f2aca4d.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
     "769.65d2d2fd.chunk.js.map": "/static/js/769.65d2d2fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7c84b7f.css",
-    "static/js/main.55a8687f.js"
+    "static/css/main.1f46b99b.css",
+    "static/js/main.ff19f106.js"
   ]
 }
